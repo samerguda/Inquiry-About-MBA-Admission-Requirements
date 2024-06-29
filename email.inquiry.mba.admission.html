@@ -34,15 +34,16 @@
 </head>
 <body>
     <div class="letter" id="letter">
-        <p>Dear Sir,</p>
+        <p>Subject: Inquiry Regarding MBA Program Application Without IELTS Requirement</p>
+        <p>Dear Sir/Madam,</p>
         <p>My name is Samer Alsaadni, and I am an engineer currently working in the construction field. I am interested in applying for the MBA program at your esteemed university.</p>
-        <p>I have completed a Bachelor's degree in Engineering, which was a five-year program taught entirely in English. Additionally, I have pursued postgraduate education in Engineering Management for two years, also conducted in English.</p>
+        <p>I have completed a Bachelor's degree in Engineering, a five-year program taught entirely in English. Additionally, I pursued postgraduate education in Engineering Management for two years, also conducted in English.</p>
         <p>Given my academic background and professional experience, I would like to inquire if I can apply for the MBA program without the need for an IELTS score.</p>
         <p>Furthermore, I would appreciate it if you could provide me with a list of the required documents to complete my application for the MBA program.</p>
         <p>Thank you for your time and assistance. I look forward to your response.</p>
         <p>Best regards,</p>
         <p>Samer Alsaadni<br>
-        +966548247897<br>
+        +966 548 247 897<br>
         <a href="mailto:samerguda@amil.com">samerguda@amil.com</a></p>
     </div>
     <div class="button-container">
@@ -62,12 +63,5 @@
         }
 
         function sendEmail() {
-            const subject = 'MBA Program Application';
-            const body = encodeURIComponent(document.getElementById('letter').innerText);
-            window.location.href = `mailto:admissions@university.edu?subject=${subject}&body=${body}`;
-        }
-    </script>
-</body>
-</html>
-
-
+            const subject = 'Inquiry Regarding MBA Program Application Without IELTS Requirement';
+            const body = encodeURIComponent(`Dear Sir/Madam,\n\nMy name is Samer Alsaadni, and I am an engineer currently working in the construction field. I am interested in applying for the MBA program at your esteemed university.\n\nI have completed a Bachelor's degree in Engineering, a five-year program taught entirely in English. Additionally, I pursued postgraduate education in Engineering Management for two years, also conducted in English.\n\nGiven my academic background and professional experience, I would like to inquire if I can apply for the MBA program without the need for an IELTS score.\n\nFurthermore, I would appreciate it
